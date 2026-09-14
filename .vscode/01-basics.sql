@@ -44,7 +44,7 @@
 
 -- SELECT name FROM employee WHERE hire_date IS NULL;
 
--- SELECT name, department, salary FROM employee WHERE department IN ('Engineering', 'Sales') AND salary BETWEEN 60000 AND 110000 AND name NOT LIKE 'V%';
+SELECT name, department, salary FROM employee WHERE department IN ('Engineering', 'Sales') AND salary BETWEEN 60000 AND 110000 AND name NOT LIKE 'V%';
 
 
 
