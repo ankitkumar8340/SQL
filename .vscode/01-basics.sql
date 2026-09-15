@@ -29,13 +29,13 @@
 
 -- SELECT name, department, salary FROM employee WHERE department = 'Sales' AND salary > 59000.00;
 
--- SELECT name, department, salary FROM employee WHERE department IN ('Sales', 'CSE');
+SELECT name, department, salary FROM employee WHERE department IN ('Sales', 'CSE');
 
 
--- SELECT name, department, salary FROM employee WHERE salary BETWEEN 60000 AND 110000;
+SELECT name, department, salary FROM employee WHERE salary BETWEEN 60000 AND 110000;
 
 
--- SELECT * FROM employee; 
+SELECT * FROM employee; 
 
 
 SELECT name FROM employee WHERE name LIKE 'A%';
