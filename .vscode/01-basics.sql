@@ -38,9 +38,9 @@
 -- SELECT * FROM employee; 
 
 
--- SELECT name FROM employee WHERE name LIKE 'A%';
+SELECT name FROM employee WHERE name LIKE 'A%';
 
--- SELECT name FROM employee WHERE name LIKE '%i%';
+SELECT name FROM employee WHERE name LIKE '%i%';
 
 SELECT name FROM employee WHERE hire_date IS NULL;
 
